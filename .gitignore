@@ -1,0 +1,17 @@
+# Never commit secrets or generated artifacts
+*.key
+*.keyfile
+luks-keyfile
+*keyfile*
+*.pem
+id_rsa
+id_ed25519
+
+# Generated lab artifacts (disk images, archives) - not source
+*.img
+secret.img
+*.tar.gz
+
+# OS / editor noise
+.DS_Store
+*.swp

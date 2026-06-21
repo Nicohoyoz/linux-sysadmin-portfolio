@@ -1,0 +1,6 @@
+[Unit]
+Description=Resource Monitor Script
+
+[Service]
+Type=oneshot
+ExecStart=/home/ubuntu/resource_monitor.sh

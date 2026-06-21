@@ -1,0 +1,3 @@
+# /etc/fstab   ->   <device>  <mount point>  <fstype>  <options>  <dump>  <pass>
+# After crypttab unlocks the volume, this mounts it onto /mnt/secure.
+/dev/mapper/secret_volume  /mnt/secure  ext4  defaults  0  2

@@ -1,0 +1,5 @@
+# /etc/crypttab   ->   <target name>  <source device>  <key file>  <options>
+# At boot, unlocks the LUKS volume using the keyfile.
+# The UUID comes from `sudo cryptsetup luksDump /dev/loopX` (a LUKS UUID is an
+# identifier, not a secret). The keyfile itself is NEVER committed to the repo.
+secret_volume UUID=76102c26-ce1d-48de-afef-e1714c91d14b /root/luks-keyfile luks
