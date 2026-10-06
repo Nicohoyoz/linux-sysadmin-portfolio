@@ -19,11 +19,11 @@ All addresses shown in screenshots are private internal lab addresses.
 
 | # | Project | Focus | Key tools |
 |---|---------|-------|-----------|
-| 1 | [SSH Log Parser](01-ssh-log-parser) | Detect brute-force login attempts | bash, grep, regex, sort/uniq |
-| 2 | [Resource Monitor](02-resource-monitor) | Log CPU, memory, and disk on a schedule | bash, cron, systemd timers |
-| 3 | [Backup Automation](03-backup-automation) | Timestamped backups with retention | bash, tar, retention logic |
-| 4 | [iptables Firewall](04-iptables-firewall) | Default-deny firewall, persisted across reboots | iptables, netfilter-persistent |
-| 5 | [LUKS Disk Encryption](05-luks-encryption) | Encrypt data at rest, keyfile automount | cryptsetup, LUKS2, crypttab and fstab |
+| 1 | [SSH Log Parser](01-ssh-log-parser/README.md) | Detect brute-force login attempts | bash, grep, regex, sort/uniq |
+| 2 | [Resource Monitor](02-resource-monitor/README.md) | Log CPU, memory, and disk on a schedule | bash, cron, systemd timers |
+| 3 | [Backup Automation](03-backup-automation/README.md) | Timestamped backups with retention | bash, tar, retention logic |
+| 4 | [iptables Firewall](04-iptables-firewall/README.md) | Default-deny firewall, persisted across reboots | iptables, netfilter-persistent |
+| 5 | [LUKS Disk Encryption](05-luks-encryption/README.md) | Encrypt data at rest, keyfile automount | cryptsetup, LUKS2, crypttab and fstab |
 
 ## Why these projects
 
